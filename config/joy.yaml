@@ -1,0 +1,8 @@
+#0: Roll 1:Pitch 2:yaw 3:Throttle 4: Small-Joy X-axis 5: Small-Joy Y-axis
+#0: Trigger 1:Thumb 2: LowerLeft 3:LowerRight 4:UpperLeft 5:UpperRight 6:Button5 7:Button6 8:Button7 9:Button8 10:Button9 11:Button10 12:Button11
+type: joystick
+linearX: 1
+angularZ: 2
+brake:  0
+unlock: 1
+home  : 5

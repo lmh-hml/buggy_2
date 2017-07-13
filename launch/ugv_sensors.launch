@@ -1,0 +1,11 @@
+<launch> 
+		
+	<arg name="arduino_usb" default="dev/ttyUSB0"/>
+
+<!--ULTRASONIC SENSOR NODES-->	
+		 
+	<node name="arduino_node" pkg="rosserial_python"
+		  type="serial_node.py" 
+		  args="$(arg arduino_usb)"  />
+
+</launch>

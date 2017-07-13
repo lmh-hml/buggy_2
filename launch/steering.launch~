@@ -1,0 +1,14 @@
+<launch> 
+
+<!--Steering NODES-->	
+	<arg name="controller" default="gamepad.yaml"/>
+
+	<node name="joy" pkg="joy" type="joy_node" />
+
+	<node name="steering" pkg="buggy_control"
+		  type="steering_params" output="screen" >
+		<rosparam command="load" file="$(find buggy_control)/config/$(arg controller)"/>
+	</node>
+		  
+
+</launch>

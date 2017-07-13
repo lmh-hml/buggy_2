@@ -1,0 +1,9 @@
+#axes: 0: left X axis, 1: left Y axis, 2: left trigger, 3: right X axis, 4: right Y axis, 5: right trigger, 6: Dpad LR, 7:Dpad UpDown
+#buttons: 0:A 1:B 2:X 3:Y 4: LB 5:RB 6:back 7:start 8:logitech 9:left joystick button 10:right joystick button
+type: 'gamepad'
+linearX: 1
+angularZ: 3
+cancelGoal: 2
+brake:  4
+unlock: 5
+home  : 10
